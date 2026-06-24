@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: black;
+  width: 700px;
+  color: white;
+  /*margin: auto; auto posiciona o mesmo elemento a direita e esquerda
+  margin: 50px; espacamento em todos os sentidos 
+  margin-top: ;
+  margin-left: ;
+  margin-right: ;
+  margin-bottom: ;*/
+  margin: 10px 20px 30px 40px;
+
+  /* Padding é o espacamento interno */
+
+  padding: 30px;
+  /* 
+  padding-top: ;
+  padding-left: ;
+  padding-right: ;
+  padding-bottom: ;*/
+
+  border: 5px solid red;
+}

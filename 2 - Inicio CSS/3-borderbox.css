@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  /* BOA PRATICA PARA OS ELEMENTOS RESPEITAREM O MAXIMO DE TAMANHO*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: black;
+  width: 700px;
+  color: white;
+  margin: auto;
+  padding: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+.rede-social h2{
+  text-align: center;
+}
+
+.rede-social ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.rede-social li {
+  margin-bottom: 10px;
+}
+
+.rede-social a {
+  text-decoration: none;
+  color: black;
+}
+
+.rede-social a:hover {
+  color: red;
+}

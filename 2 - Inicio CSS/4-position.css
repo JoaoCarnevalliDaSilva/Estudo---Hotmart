@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 180vh;
+}
+.container {
+  background-color: black;
+  width: 700px;
+  color: white;
+  margin: auto;
+  padding: 50px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+/* 
+  1. Por padrao temos o Static ou seja estatico - Estatico no lugar da tela
+
+  2. Relative elemento é posicionado em relacao a sua posicao normal
+  (top, bottom, left, right)
+
+  3.Absolute: é a posicionado em relacao ao seu elemento pai mais proximo
+  que possui relative se nao tiver relative
+
+  4. Fixed
+
+  5. Sticky: é posicionado em relacao a posicao do scroll
+*/
+.area {
+  position: relative;
+  border: 10px solid green;
+  top: 120px;
+  left: 90px;
+}
