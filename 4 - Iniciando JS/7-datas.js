@@ -18,3 +18,13 @@ dataNova.getFullYear(); //Pega o ano
 
 // Para contatenar a data no formato que quiser, por exemplo:
 dataNova.getDay()+"/"+(dataNova.getMonth()+1)+"/"+dataNova.getFullYear();
+
+// Para somar dias a data
+dataNova.setDate(dataNova.getDate()+5);
+
+// Para adicionar horas
+dataNova.setHours(dataNova.getHours()+10);
+
+// Para demonstrar o dia da semana
+var dias = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado'];
+dias[dataNova.getDay()];
