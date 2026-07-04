@@ -144,14 +144,65 @@ footer {
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  background-color: #f5f5f5;
 }
 
 table {
   border: 1px solid black;
+  padding: 20px;
+  background-color: hsl(0, 33%, 95%);
+  border-radius: 12px;
 }
 
-.cabecalho {
+th {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.simulador {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.simulador h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  background-color: hsl(0, 33%, 95%);
+  font-size: 32px;
+  height: 25%;
+}
+
+.perguntakms {
+  display: flex;
+  height: 10%;
+  width: 100%;
   background-color: aqua;
-  padding: 20px;
-  
+}
+
+.perguntakms label {
+  background-color: rgb(14, 10, 6);
+}
+
+.pergunta-preco {
+  display: flex;
+}
+
+.botao-calcular {
+  display: flex;
+}
+
+.resultado {
+  text-align: center;
+  font-size: 32px;
 }
