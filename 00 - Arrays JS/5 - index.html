@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Plano de estudo:</h1>
+
+  <form action="" onsubmit="adicionarTopico(event)">
+    <label for="">Digite a materia:</label><br>
+    <input type="text" id="topico" placeholder="Ex: React"><br><br>
+    <input type="submit" value="Adicionar Topico">
+  </form>
+
+  <div id="resultado"></div><br><br>
+
+  <form action="" onsubmit="finalizarTopico(event)">
+    <label for="">Qual topico voce finalizou?</label><br>
+    <input type="text" id="topico" placeholder="Ex: React"><br><br>
+    <input type="submit" value="Remover Topico">
+  </form>
+
+  <div id="conclusao"></div>
+
+  <script src="./5 - script.js"></script>
+
+</body>
+</html>
