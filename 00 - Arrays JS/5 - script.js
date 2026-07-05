@@ -11,13 +11,15 @@ function adicionarTopico(event) {
 
 function finalizarTopico(event) {
   event.preventDefault();
-  const valorRemocao = document.getElementById('topico').value;
-  pendentes.indexOf(valorRemocao);
+  const valorRemocao = document.getElementById('topico-remover').value;
+  const posicao = pendentes.indexOf(valorRemocao);
   const conclusao = document.getElementById('conclusao');
-  if(valorRemocao !== -1) {
-    pendentes.splice(valorRemocao, 1);
+  if(posicao !== -1) {
+    pendentes.splice(posicao, 1);
     conclusao.innerHTML = "Sua lista atualizada é: "+pendentes.join(' - ');
   } else {
     conclusao.innerHTML = "Topico nao encontrado."
   }
+
+  document.getElementById('topico-remover').value = '';
 }
