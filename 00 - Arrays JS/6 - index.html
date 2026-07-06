@@ -20,7 +20,7 @@
   </header>
 
   <main>
-    <div class="adicionar">
+    <div class="adicionar" onsubmit="adicionar(event)">
       <h3>Adicione novas tarefas!</h3>
       <form action="">
         <label for="">Digite uma nova tarefa:</label><br>
@@ -51,6 +51,16 @@
       </form>
     </div>
   </main>
+
+  <div class="mensagem">
+    <h4 id="resultado"></h4>
+  </div>
+
+  <section class="listagem">
+    <div id="lista-completa" class="list"></div>
+    <div id="contagem" class="cont"></div>
+  </section>
+
 
   <footer>
     <p>Desenvolvido por João - 2026</p>
