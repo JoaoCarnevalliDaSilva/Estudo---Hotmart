@@ -25,12 +25,12 @@ function finalizar(event) {
 
 function deletar(event) {
   event.preventDefault();
-  const adicaoTemp = document.getElementById('input-finalizar').value;
+  const adicaoTemp = document.getElementById('input-deletar').value;
   const posicao = grade.indexOf(adicaoTemp);
   const resultado = document.getElementById('resultado');
   if(posicao !== -1) {
     grade.splice(posicao,1);
-    resultado.innerHTML = "Último tópico removido com sucesso."
+    resultado.innerHTML = "Tópico removido com sucesso."
   } else {
     resultado.innerHTML = "Tópico não encontrado"
   }
