@@ -12,9 +12,8 @@ function adicionar(event) {
   } else {
     resultadoErro.innerHTML = '';
     grade.push(adicaoTemp);
-    resultado.innerHTML = "Adicionado com sucesso. Sua lista: "+grade.join(' - ');
+    resultado.innerHTML = "Adicionado com sucesso.";
     document.getElementById('adicione').value='';
   }
-
-
 }
+
