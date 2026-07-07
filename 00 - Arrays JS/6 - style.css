@@ -175,3 +175,9 @@ section div {
 .cont {
   background-color: beige;
 }
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

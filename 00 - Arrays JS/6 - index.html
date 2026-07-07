@@ -20,11 +20,11 @@
   </header>
 
   <main>
-    <div class="adicionar" onsubmit="adicionar(event)">
+    <div class="adicionar">
       <h3>Adicione novas tarefas!</h3>
-      <form action="">
+      <form action="" onsubmit="adicionar(event)">
         <label for="">Digite uma nova tarefa:</label><br>
-        <input type="text" id="adicione" placeholder="Ex: Visto"><br><br>
+        <input type="text" id="input-adicionar" placeholder="Ex: Visto"><br><br>
         <div class="botao">
           <input type="submit" value="Adicionar">
         </div>
@@ -32,21 +32,21 @@
     </div>
     <div class="concluir">
       <h3>Registre sua tarefa finalizada!</h3>
-      <form action="">
+      <form action="" onsubmit="finalizar(event)">
         <label for="">Digite a tarefa finalizada:</label><br>
-        <input type="text" id="adicione" placeholder="Ex: Visto"><br><br>
+        <input type="text" id="input-finalizar" placeholder="Ex: Visto"><br><br>
         <div class="botao">
-          <input type="submit" value="Adicionar">
+          <input type="submit" value="Registrar">
         </div>
       </form>
     </div>
     <div class="remover">
       <h3>Apague uma tarefa.</h3>
-      <form action="">
+      <form action="" onsubmit="deletar(event)">
         <label for="">Digite a tarefa a ser excluida:</label><br>
-        <input type="text" id="adicione" placeholder="Ex: Visto"><br><br>
+        <input type="text" id="input-deletar" placeholder="Ex: Visto"><br><br>
         <div class="botao">
-          <input type="submit" value="Adicionar">
+          <input type="submit" value="Apagar">
         </div> 
       </form>
     </div>
@@ -54,6 +54,7 @@
 
   <div class="mensagem">
     <h4 id="resultado"></h4>
+    <h4 id="resultado-erro"></h4>
   </div>
 
   <section class="listagem">
