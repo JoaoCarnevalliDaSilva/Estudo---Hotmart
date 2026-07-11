@@ -18,4 +18,10 @@ var nome = 'Joao';
 nome.length;
 nome.charAt(1);
 nome.replace('ao', 'sh'); // Trocar de Joao para Josh
+nome.toLowerCase(); //tudo minusculo
+var nomeMinusculo = nome.toLowerCase();
+
+
+// PARA NUMEROS
+
 
