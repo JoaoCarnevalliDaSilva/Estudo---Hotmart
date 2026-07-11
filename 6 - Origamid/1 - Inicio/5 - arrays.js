@@ -19,8 +19,8 @@ for (let n = 0; n<videoGames.length; n++) {
 
 
 //FOR EACH é uma função que executa uma função para cada item da Array
-videoGames.forEach(function(item){
-  console.log(item);
+videoGames.forEach(function(item, index, array){
+  console.log(item, index, array);
 })
 
 
