@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* PARA QUE A IMAGEM RESPEITE UM TAMANHO MAXIMO */
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Inicio dos estilos */
