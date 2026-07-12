@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 100px minmax(100px, 800px) 1fr;
+  grid-template-rows: 80px 1fr 50px;
+  height: 100vh;
+  width: 100%;
+  background-color: #faf6ed;
+}
+
+.cabecalho {
+  grid-column: 2 / 4;
+  background-color: black;
+}
+
+.menu-navegacao {
+  grid-column: 2 / 3;
+  background-color: blue;
+}
+
+.conteudo-principal {
+  grid-column: 3/4;
+  background-color: blueviolet;
+}
+
+footer {
+  grid-column: 2 / 4;
+  background-color: red;
+}
