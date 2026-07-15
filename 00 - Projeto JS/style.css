@@ -40,9 +40,9 @@ section {
   align-items: center;
   justify-content: center;
   text-shadow: 2px 2px black;
-  background-color: rgba(0, 0, 0, 0.55); /* Fundo preto com 55% de opacidade */
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); /* Sombra escura e suave projetada para trás */
-  backdrop-filter: blur(2px); /* Desfoca a imagem de fundo atrás do formulário */
+  background-color: rgba(15, 23, 42, 0.75); /* Fundo preto com 55% de opacidade */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3); /* Sombra escura e suave projetada para trás */
+  backdrop-filter: blur(1px); /* Desfoca a imagem de fundo atrás do formulário */
   border-radius: 12px; /* Suaviza os cantos retos */
   border: 1px solid rgba(255, 255, 255, 0.1); /* Uma linha bem fina ao redor para dar acabamento */
   padding: 30px;
@@ -60,27 +60,53 @@ section p {
   font-weight: bold;
 }
 
-section label {
-  font-size: 16px;
-  letter-spacing: 4px;
-  padding: 4px;
-  background-color: aqua;
-}
-
 .formulario input{
   display: flex;
   flex-direction: column;
   padding: 8px;
   border-radius: 4px;
-
 }
 
+.emailLogin {
+  padding: 12px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailLogin label {
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+.emailLogin input{
+   width: 100%;
+}
+
+.senhaLogin {
+  padding: 12px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.senhaLogin label {
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+.senhaLogin input {
+  width: 100%;
+}
 
 .botao {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: azure;
   padding: 12px;
 }
 
@@ -88,11 +114,25 @@ section label {
   width: 80%;
   border-radius: 4px;
   cursor: pointer;
+  color: #0F172A;
 }
 
 .botao input:hover{
   transition: 0.4s;
   color: #f5f5f5;
-  background-color: aqua;
+  background-color:#0F172A;
 }
+
+.esqueceuSenha { 
+  display: flex;
+  justify-content: center;
+}
+
+.esqueceuSenha a{
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
 
