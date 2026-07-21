@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+=========================================
+   PALETA DE CORES - COLÉGIO SANQUIM
+=========================================
+   Amarelo Principal (Fundo): #E8BC3D
+   Amarelo Claro (Ondas): #F3D88D
+   Off-White/Creme (Fundo Central): #FBF9E7
+   Teal/Verde-azulado (Botão Home e Logo): #388E8E
+   Preto/Texto (Menu e Títulos): #2A2A2A
+   Ciano (Detalhes do ícone do logo): #00C2CB
+   Verde WhatsApp (Ícone flutuante): #25D366
+=========================================
+*/
+
+#dashboard {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/Fundo.png);
+
+}
