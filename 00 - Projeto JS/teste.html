@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./teste.css">
   <title>Projeto Sanquim</title>
 </head>
+
 <body>
-  
+
   <section id="dashboard">
 
     <header class="contato-inicial">
       <div class="redes-sociais">
         <h3>Praça Duque de Caxias - Mogi Mirim/SP</h3>
         <h3>Siga nas Redes Sociais</h3>
-      </div>  
+      </div>
       <div class="imagem-inicial">
         <img src="./img/logousar.png" alt="">
       </div>
@@ -34,7 +36,7 @@
 
     <main class="conteudo-principal-inicial">
       <div class="principal-navegacao">
-        <h3>Tópicos mais acessados:</h3>  
+        <h3>Tópicos mais acessados:</h3>
         <ul>
           <li><a href="#">Frequência Geral</a></li>
           <li><a href="#">Alunos em Alerta</a></li>
@@ -46,14 +48,31 @@
       <div class="principal-conteudo">
         <h1>Bem Vindo(a) a plataforma Sanquim Tech</h1>
         <div class="portais-container">
-          <div class="portal-do-funcionario">
-          </div>
-          <div class="portal-aulas">
+          <div class="portal-do-funcionario card-dashboard">
+            <h2>Resumo do Corpo Docente</h2>
+            <div class="metricas-container">
+              <div class="metrica-box">
+                <span class="numero">42</span>
+                <span class="descricao">Professores Ativos</span>
+              </div>
+              <div class="metrica-box">
+                <span class="numero alerta">3</span>
+                <span class="descricao">Faltas Hoje</span>
+              </div>
+            </div>
 
+
+            <div class="portal-aulas card-dashboard">
+              <h2>Alertas de Frequência</h2>
+              <ul class="lista-alertas">
+                <li><strong>João Silva:</strong> 25% de faltas (Matemática)</li>
+                <li><strong>Maria Souza:</strong> 22% de faltas (Física)</li>
+                <li><strong>Pedro Alves:</strong> 28% de faltas (Química)</li>
+              </ul>
+            </div>
           </div>
+
         </div>
-        
-      </div>
     </main>
 
     <footer class="rodape-principal">
@@ -89,4 +108,5 @@
 
 
 </body>
+
 </html>

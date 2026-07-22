@@ -5,46 +5,137 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Projeto Sanquim</title>
+  <title>Projeto Sanquim - EduGestão</title>
 </head>
 
 <body>
 
-  <!-- PÁGINA DE LOGIN  -->
+  <!-- ================= TELA DE LOGIN ================= -->
   <section id="tela-login">
-    <h1>Bem Vindo ao Sanquim!</h1>
-    <p>Faça seu login para continuar</p>
-    <div class="formulario">
-      <form action="" id="login-form">
-        <div class="emailLogin">
-          <label for="">Digite seu email:</label>
-          <input type="text" id="email" placeholder="Ex: joao.silva@sanquim.com">
-        </div>
-        <div class="senhaLogin">
-          <label for="">Digite sua senha:</label>
-          <input type="password" id="senha" placeholder="*********">
-        </div>
-        <div class="botao">
-          <input type="submit" value="Entrar">
-        </div>
-        <div class="esqueceuSenha">
-          <a href="#">Esqueceu a senha?</a>
-        </div>
-      </form>
+    <div class="imagem-login">
+      <img src="./img/logousar.png" alt="">
+    </div>
+    <div class="caixa-login">
+      <h1>Bem Vindo ao Sanquim!</h1>
+      <p>Faça seu login para continuar</p>
+
+      <div class="formulario">
+        <form action="" id="login-form">
+          <div class="emailLogin">
+            <label for="email">Digite seu email:</label>
+            <input type="text" id="email" placeholder="Ex: joao.silva@sanquim.com">
+          </div>
+          <div class="senhaLogin">
+            <label for="senha">Digite sua senha:</label>
+            <input type="password" id="senha" placeholder="*********">
+          </div>
+          <div class="botao">
+            <input type="submit" value="Entrar">
+          </div>
+          <div class="esqueceuSenha">
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
-
-  <!-- DASHBOARD  -->
-
+  <!-- ================= TELA DO DASHBOARD ================= -->
   <section id="dashboard">
+    <header class="contato-inicial">
+      <div class="redes-sociais">
+        <h3>Praça Duque de Caxias - Mogi Mirim/SP</h3>
+        <h3>Siga nas Redes Sociais</h3>
+      </div>  
+      <div class="imagem-inicial">
+        <img src="./img/logousar.png" alt="Logo Sanquim">
+      </div>
+    </header>
 
-    <h1>Painels do Coordenador</h1>
+    <nav class="menu-tela-inicial">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre o Sanquim</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Cultural</a></li>
+        <li><a href="#">Voluntários</a></li>
+        <li><a href="#">Transparência</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
 
+    <main class="conteudo-principal-inicial">
+      <div class="principal-navegacao">
+        <h3>Tópicos acessados:</h3>  
+        <ul>
+          <li><a href="#">Frequência Geral</a></li>
+          <li><a href="#">Alunos em Alerta</a></li>
+          <li><a href="#">Pendências do Dia</a></li>
+          <li><a href="#">Ocorrências do Dia</a></li>
+        </ul>
+      </div>
+
+      <div class="principal-conteudo">
+        <h1>Bem Vindo(a) à plataforma Sanquim Tech</h1>
+        
+        <div class="portais-container">
+          <!-- Card 1: Métricas de Funcionários -->
+          <div class="portal-do-funcionario card-dashboard">
+            <h2>Resumo do Corpo Docente</h2>
+            <div class="metricas-container">
+              <div class="metrica-box">
+                <span class="numero">42</span>
+                <span class="descricao">Professores</span>
+              </div>
+              <div class="metrica-box">
+                <span class="numero alerta">3</span>
+                <span class="descricao">Faltas Hoje</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Alertas de Aulas/Alunos -->
+          <div class="portal-aulas card-dashboard">
+            <h2>Alertas de Frequência</h2>
+            <ul class="lista-alertas">
+              <li><strong>João Silva:</strong> 25% de faltas</li>
+              <li><strong>Maria Souza:</strong> 22% de faltas</li>
+              <li><strong>Pedro Alves:</strong> 28% de faltas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="rodape-principal">
+      <div class="imagem-rodape">
+        <img src="./img/logousar.png" alt="Logo">
+      </div>
+      <div class="institucional-rodape">
+        <ul>
+          <li class="principal-rodape">INSTITUCIONAL</li>
+          <li><a href="#">Sobre o Sanquim</a></li>
+          <li><a href="#">Apoie o Projeto</a></li>
+          <li><a href="#">Seja um voluntário</a></li>
+        </ul>
+      </div>
+      <div class="contato-rodape">
+        <ul>
+          <li class="principal-rodape">FALE CONOSCO</li>
+          <li>(19) 99391-0500</li>
+          <li>(19) 3549-6712</li>
+          <li>Praça Duque de Caxias, 169 - Centro</li>
+        </ul>
+      </div>
+      <div class="redes-rodape">
+        <ul>
+          <li class="principal-rodape">SIGA NAS REDES SOCIAIS</li>
+        </ul>
+      </div>
+    </footer>
   </section>
 
   <script src="./script.js"></script>
-
 </body>
 
 </html>
