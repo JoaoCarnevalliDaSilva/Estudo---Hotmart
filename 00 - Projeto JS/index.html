@@ -111,7 +111,42 @@
         <div class="portais-container">
           <div class="card-dashboard">
             <h2>Painel de Gestão</h2>
-            <p>Módulo de controle e aprovação de turmas em construção...</p>
+            <div class="usuario-container">
+              <div class="usuario-procurar">
+                <label for="buscar-usuario">Procure um usuário</label>
+                <input type="text" placeholder="Buscar por nome, CPF ou matrícula">
+              </div>
+              <div class="usuario-selecionar-tipo">
+                <label for="filtro-usuario">Filtrar por tipo</label>
+                <select name="filtroUsuario" id="filtro-usuario">
+                  <option value="todos">Todos</option>
+                  <option value="alunos">Aluno</option>
+                  <option value="professor">Professor</option>
+                  <option value="funcionario">Funcionário</option>
+                </select>
+              </div>
+              <div class="usuario-adicionar">
+                <button>+ Novo Cadastro</button>
+              </div>
+            </div>
+            <div class="table-usuario-container">
+              <table>
+                <tr>
+                  <th>Matrícula</th>
+                  <th>Nome</th>
+                  <th>Cargo/Turma</th>
+                  <th>Status</th>
+                  <th>Ações</th>
+                </tr>
+                <tr>
+                  <td>10293</td>
+                  <td>Maria Souza</td>
+                  <td>3º Ano B</td>
+                  <td>Ativo</td>
+                  <td><button class="edite-button">Editar</button><button class="delete-button">Deletar</button></td>
+                </tr>
+              </table>
+            </div>
           </div>
         </div>
       </div>
