@@ -11,7 +11,7 @@
 <body>
 
   <!-- ================= TELA DE LOGIN ================= -->
-  <section id="tela-login" style="display: grid;">
+  <section id="tela-login" style="display: none;">
     <div class="imagem-login">
       <img src="./img/logousar.png" alt="">
     </div>
@@ -42,7 +42,7 @@
   </section>
 
   <!-- ================= TELA DO DASHBOARD ================= -->
-  <section id="dashboard" style="display: none;">
+  <section id="dashboard" style="display: grid;">
     <header class="contato-inicial">
       <div class="redes-sociais">
         <h3>Praça Duque de Caxias - Mogi Mirim/SP</h3>
@@ -78,7 +78,7 @@
       <!-- ÁREA DE CONTEÚDO DINÂMICO -->
 
       <!-- Tela 1: Início (Já vem visível) -->
-      <div id="tela-inicio" class="principal-conteudo" style="display: flex;">
+      <div id="tela-inicio" class="principal-conteudo" style="display: none;">
         <h1>Bem Vindo(a) a plataforma Sanquim Tech</h1>
         <div class="portais-container">
           <div class="portal-do-funcionario card-dashboard">
@@ -187,12 +187,14 @@
       </div>
 
       <!-- Tela 3: Relatórios (Inicia oculta) -->
-      <div id="tela-relatorios" class="principal-conteudo" style="display: none;">
+      <div id="tela-relatorios" class="principal-conteudo" style="display: grid;">
         <h1>Relatórios do Sistema</h1>
         <div class="portais-container">
           <div class="card-dashboard">
-            <h2>Exportação de Dados</h2>
-            <p>Módulo de geração de planilhas e PDFs em construção...</p>
+            <h2>Extração de Relatórios</h2>
+            <div class="container-relatorios">
+
+            </div>
           </div>
         </div>
       </div>

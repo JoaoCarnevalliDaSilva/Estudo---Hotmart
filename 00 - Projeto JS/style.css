@@ -104,9 +104,9 @@ body {
 .principal-navegacao li:hover a { color: white; }
 
 .principal-conteudo { width: 70%; display: flex; flex-direction: column; padding: 15px;}
-.principal-conteudo h1 { display: flex; justify-content: center; align-items: center; color: white; margin-bottom: 10px;}
+.principal-conteudo h1 { display: flex; justify-content: center; color: white; margin-bottom: 10px;}
 
-.portais-container { display: flex; gap: 16px; flex: 1; width: 95%; }
+.portais-container { display: flex; gap: 8px; flex: 1; width: 95%; height: 450px;}
 
 .card-dashboard {
   height: 95%; margin-top: 8px; flex: 1; background-color: #F8FAFC; border-radius: 8px; padding: 20px;
