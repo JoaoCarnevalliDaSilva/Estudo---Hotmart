@@ -136,10 +136,11 @@ body {
 .table-usuario-container {display: flex; border: 1px solid #388E8E; height: 60%;}
 .table-usuario-container table {width: 100%;}
 .table-usuario-container td {text-align: center}
-.table-usuario-container button {padding: 4px}
-.edite-button {background-color: #E8BC3D; color: white; font-weight: bolder; border-radius: 4px}
-.delete-button {background-color: #EF4444; color: white; font-weight: bolder; border-radius: 4px;}
-
+.table-usuario-container button {padding: 4px;cursor: pointer;}
+.edite-button {background-color: #E8BC3D; color: white; font-weight: bolder; border-radius: 4px;border: none; margin-right: 4px;}
+.edite-button:hover{background-color: white;color: #E8BC3D;font-weight: bolder;transition: 0.5s;}
+.delete-button {background-color: #EF4444; color: white; font-weight: bolder; border-radius: 4px;border: none;}
+.delete-button:hover{background-color: white;color: #EF4444;font-weight: bolder;transition: 0.5s;}
 
 .usuario-passar-pag {display: flex;flex-direction: column;align-items: center;}
 .passar-pagina button{padding: 4px;border-radius: 4px;background-color: #388E8E;color: white;font-weight: bolder;cursor: pointer;}
@@ -147,14 +148,28 @@ body {
 
 
 .container-relatorios {display: flex; gap: 8px; height: 90%; border-radius: 12px;}
-.container-relatorios h3{display: flex; justify-content: center;font-weight: bolder;color: #388E8E;margin-bottom: 30px;}
-.container-relatorios label{padding: 12px; font-weight: bolder; display: flex}
-.container-relatorios select{width: 50%;background-color: #E8BC3D;justify-content: center; align-items: center; display: flex;}
-.botao-relatorios {display: flex;background-color: #388E8E;justify-content: center;width: 40px;}
+.container-relatorios h3{display: flex; justify-content: center;font-weight: bolder;color: #388E8E;margin-bottom: 30px; margin-top: 20px;}
+.container-relatorios label{padding: 12px; font-weight: bolder}
+.container-relatorios select{width: 60%;text-align: center;border: none; border-radius: 4px;padding: 4px; align-self: center;}
+.container-relatorios p{text-align: center; font-weight: bolder; margin: 12px;}
+.botao-relatorios {background-color: #388E8E; width: 60%; align-self: center; margin-top: 20px; cursor: pointer;color: white;font-weight: bolder;padding: 4px;border-radius: 4px;}
+.botao-relatorios:hover{background-color: white; color: #388E8E;font-weight: bolder;}
 .relatorios-cursos {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05);}
 .relatorios-alunos {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05)}
 .relatorios-professores {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05)}
 
+
+.tela-comunicados {display: flex; flex-direction: column;}
+.comunicados-coordenacao {display: flex;justify-content: space-between;padding: 8px;}
+.comunicados-coordenacao button {width: 30%; padding: 8px; border-radius: 4px; border: none; color: white; font-weight: bolder;cursor: pointer;}
+.bot-adicionar {background-color: #388E8E;}
+.bot-adicionar:hover{background-color: white; color: #388E8E; font-weight: bolder; transition: 0.5s;}
+.bot-editar {background-color: #E8BC3D;}
+.bot-editar:hover{background-color: white; color: #E8BC3D; font-weight: bolder;transition: 0.5s;}
+.bot-deletar {background-color: #EF4444;}
+.bot-deletar:hover{background-color: white; color: #EF4444; font-weight: bolder;transition: 0.5s;}
+.comunicados-ativos {height: 300px;}
+.comunicado{background-color: rgba(0, 0, 0, 0.05); margin-top: 12px; padding: 8px; border-radius: 4px;}
 
 .rodape-principal { grid-column: 2/5; grid-row: 5/6; display: flex; margin-top: 12px; }
 .rodape-principal li { list-style: none; font-weight: bolder; }

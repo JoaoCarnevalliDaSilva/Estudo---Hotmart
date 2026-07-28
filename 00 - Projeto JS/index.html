@@ -11,7 +11,7 @@
 <body>
 
   <!-- ================= TELA DE LOGIN ================= -->
-  <section id="tela-login" style="display: none;">
+  <section id="tela-login" style="display: grid;">
     <div class="imagem-login">
       <img src="./img/logousar.png" alt="">
     </div>
@@ -42,7 +42,7 @@
   </section>
 
   <!-- ================= TELA DO DASHBOARD ================= -->
-  <section id="dashboard" style="display: grid;">
+  <section id="dashboard" style="display: none;">
     <header class="contato-inicial">
       <div class="redes-sociais">
         <h3>Praça Duque de Caxias - Mogi Mirim/SP</h3>
@@ -188,7 +188,7 @@
       </div>
 
       <!-- Tela 3: Relatórios (Inicia oculta) -->
-      <div id="tela-relatorios" class="principal-conteudo" style="display: grid;">
+      <div id="tela-relatorios" class="principal-conteudo" style="display: none;">
         <h1>Relatórios do Sistema</h1>
         <div class="portais-container">
           <div class="card-dashboard">
@@ -270,7 +270,27 @@
         <div class="portais-container">
           <div class="card-dashboard">
             <h2>Comunicados Oficiais</h2>
-            <p>Nenhum aviso novo da diretoria no momento.</p>
+            <div class="tela-comunicados">
+              <div class="comunicados-coordenacao">
+                <button class="bot-adicionar">+ Gerar Comunicado</button>
+                <button class="bot-editar">Editar Comunicado</button>
+                <button class="bot-deletar">Deletar Comunicado</button>
+              </div>
+              <div class="comunicados-ativos">
+                <div class="comunicado">
+                  <h3 class="titulo-comunicado">Nota Oficial: Feriado 12/10</h3>
+                  <p>Devido ao Feriado de Tiradentes, não haverá aula no dia 12/10. Bom feriado!!</p>
+                </div>
+                <div class="comunicado">
+                  <h3 class="titulo-comunicado">Nota Oficial: Notas 3° Bimestre</h3>
+                  <p>Todas as notas referente ao 3° Bimestre estão disponíveis para consulta.</p>
+                </div>
+                <div class="comunicado">
+                  <h3 class="titulo-comunicado">Nota Oficial: Rematrícula</h3>
+                  <p>O Sanquim convoca os responsáveis para a realização da rematrícula para o ano letivo de 2027</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
