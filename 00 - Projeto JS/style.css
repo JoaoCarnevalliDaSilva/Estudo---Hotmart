@@ -145,6 +145,17 @@ body {
 .passar-pagina button{padding: 4px;border-radius: 4px;background-color: #388E8E;color: white;font-weight: bolder;cursor: pointer;}
 .passar-pagina button:hover{background-color: white; color: #388E8E;font-weight: bolder;}
 
+
+.container-relatorios {display: flex; gap: 8px; height: 90%; border-radius: 12px;}
+.container-relatorios h3{display: flex; justify-content: center;font-weight: bolder;color: #388E8E;margin-bottom: 30px;}
+.container-relatorios label{padding: 12px; font-weight: bolder; display: flex}
+.container-relatorios select{width: 50%;background-color: #E8BC3D;justify-content: center; align-items: center; display: flex;}
+.botao-relatorios {display: flex;background-color: #388E8E;justify-content: center;width: 40px;}
+.relatorios-cursos {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05);}
+.relatorios-alunos {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05)}
+.relatorios-professores {display: flex; flex-direction: column; flex: 1; background-color: rgba(0, 0, 0, 0.05)}
+
+
 .rodape-principal { grid-column: 2/5; grid-row: 5/6; display: flex; margin-top: 12px; }
 .rodape-principal li { list-style: none; font-weight: bolder; }
 .rodape-principal a { text-decoration: none; font-weight: bolder; color: black; }
