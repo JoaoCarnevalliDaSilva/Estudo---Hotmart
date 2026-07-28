@@ -178,8 +178,9 @@
             <div class="usuario-passar-pag">
               <p>Página 1 de 12</p>
               <div class="passar-pagina">
-                <button>< Anterior</button>
-                <button>Posterior ></button>
+                <button>
+                  < Anterior</button>
+                    <button>Posterior ></button>
               </div>
             </div>
           </div>
@@ -193,7 +194,72 @@
           <div class="card-dashboard">
             <h2>Extração de Relatórios</h2>
             <div class="container-relatorios">
+              <div class="relatorios-cursos">
+                <h3>Relatório por curso:</h3>
+                <label for="relatorio-curso">Selecione o curso:</label>
+                <select name="relatorioCurso" id="relatorio-curso">
+                  <option value="notselect">------</option>
+                  <option value="matematica">Matemática</option>
+                  <option value="historia">História</option>
+                  <option value="geografia">Geografia</option>
+                  <option value="sociologia">Sociologia</option>
+                  <option value="portugues">Português</option>
+                  <option value="edfisica">Ed. Física</option>
+                  <option value="ciencia">Ciências</option>
+                </select>
+                <label for="relatorio-curso">Selecione a turma:</label>
+                <select name="relatorioCurso" id="relatorio-curso">
+                  <option value="notselect">------</option>
+                  <option value="primeiroAnoA">1°A</option>
+                  <option value="primeiroAnoB">1°B</option>
+                  <option value="segundoAnoA">2°A</option>
+                  <option value="segundoAnoB">2°B</option>
+                  <option value="terceiroAnoA">3°A</option>
+                  <option value="terceiroAnoB">3°B</option>
+                  <option value="quartoAnoA">4°A</option>
+                  <option value="quartoAnoB">4°B</option>
+                </select>
+                <button class="botao-relatorios">Gerar Relatório</button>
+              </div>
 
+
+            </div>
+            <div class="relatorios-alunos">
+              <h3>Relatório por alunos</h3>
+              <label for="relatorio-aluno">Selecione o curso:</label>
+              <select name="relatorioAluno" id="relatorio-aluno">
+                <option value="notselect">------</option>
+                <option value="aluno">Maria Souza</option>
+                <option value="aluno">Eduarda Maria</option>
+                <option value="aluno">Carlos Souza</option>
+                <option value="aluno">Maria Fernanda</option>
+                <option value="aluno">João Souza</option>
+              </select>
+              <p>ou</p>
+              <label for="relatorio-aluno">Selecione a matrícula:</label>
+              <select name="relatorioAluno" id="relatorio-aluno">
+                <option value="notselect">------</option>
+                <option value="matricula">10293</option>
+                <option value="matricula">14193</option>
+                <option value="matricula">10153</option>
+                <option value="matricula">11548</option>
+                <option value="matricula">12548</option>
+              </select>
+              <button class="botao-relatorios">Gerar Relatório</button>
+            </div>
+
+            <div>
+              <h3>Relatório por Professores</h3>
+              <label for="relatorio-professor">Selecione o Professor</label>
+              <select name="relatorioProfessor" id="relatorio-professor">
+                <option value="notselect">------</option>
+                <option value="aluno">Caio Alberto</option>
+                <option value="aluno">Gabriel Menino</option>
+                <option value="aluno">Hugo Souza</option>
+                <option value="aluno">Adriano Michael Jackson</option>
+                <option value="aluno">Maikon Leite</option>
+              </select>
+              <button class="botao-relatorios">Gerar Relatório</button>
             </div>
           </div>
         </div>
