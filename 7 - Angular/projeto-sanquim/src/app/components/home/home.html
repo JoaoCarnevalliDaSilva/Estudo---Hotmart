@@ -1,16 +1,13 @@
-<!--HTML padrão da tela-->
 
 <div class="login-container">
   <div class="login-card">
     <h2>Login - Projeto Sanquim</h2>
     <p>Entre com suas credenciais para acessar o sistema.</p>
 
-    <!-- Usamos (ngSubmit) para interceptar o clique no botão de submit -->
     <form (ngSubmit)="fazerLogin()">
       
       <div class="input-group">
         <label for="email">Digite seu Email</label>
-        <!-- [(ngModel)] faz a ligação mágica entre a tela e o TypeScript -->
         <input type="email" id="email" [(ngModel)]="emailDigitado" name="email" placeholder="seu.email@exemplo.com" required>
       </div>
 
